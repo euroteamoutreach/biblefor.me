@@ -4,3 +4,28 @@
 
 layout: home
 ---
+
+Thank you for reading the tract you received! We'd like to offer you one of the books below for free. Just choose the book you want and complete the [request form](/request).
+
+{% for page in site.pages %}
+{% if page.categories contains 'give-away-books' %}
+<div class="book-option">
+    <img class="" src="/{{ page.thumbnail }}"/>
+    <div class="text">
+    <a class="thumbnail" href="{{ page.url }}">
+    <h3 class="heading">{{ page.title }}</h3>
+    <p>{{ page.short_description | truncate: 230 }}</p>
+    <div class="">
+        {% if page.one_sentence %}
+        <p>{{ page.one_sentence }}</p>&nbsp;&nbsp;
+        {% endif %}
+    </div>
+    </a>
+    <a class="button">Request</a>
+    </div>
+</div>
+{% endif %}
+{% endfor %}
+
+[Choose a free comic book, philosophy book, or bible, or bible course](/request-form)
+
