@@ -19,26 +19,88 @@ If you would like to receive a free book or participate in the Bible corresponde
 <label for="phone">Phone (optional)</label>
 <input type="text" name="phone"/>
 
-Address 1
+<label for="address1">Address 1</label>
+<input type="text" name="address1" />
 
-Address 2
+<label for="address2">Address 2</label>
+<input type="text" name="address2" />
 
-City
+<label for="city">City</label>
+<input type="text" name="city" />
 
-State
+<label for="state">State</label>
+<select name="state" />
+<option value="Alabama">Alabama</option>
+<option value="Arizona">Arizona</option>
+<option value="Arkansas">Arkansas</option>
+<option value="California">California</option>
+<option value="Colorado">Colorado</option>
+<option value="Connecticut">Connecticut</option>
+<option value="Delaware">Delaware</option>
+<option value="Florida">Florida</option>
+<option value="Georgia">Georgia</option>
+<option value="Idaho">Idaho</option>
+<option value="Illinois">Illinois</option>
+<option value="Indiana">Indiana</option>
+<option value="Iowa">Iowa</option>
+<option value="Kansas">Kansas</option>
+<option value="Kentucky">Kentucky</option>
+<option value="Louisiana">Louisiana</option>
+<option value="Maine">Maine</option>
+<option value="Maryland">Maryland</option>
+<option value="Massachusetts">Massachusetts</option>
+<option value="Michigan">Michigan</option>
+<option value="Minnesota">Minnesota</option>
+<option value="Mississippi">Mississippi</option>
+<option value="Missouri">Missouri</option>
+<option value="Montana">Montana</option>
+<option value="Nebraska">Nebraska</option>
+<option value="Nevada">Nevada</option>
+<option value="New Hampshire">New Hampshire</option>
+<option value="New Jersey">New Jersey</option>
+<option value="New Mexico">New Mexico</option>
+<option value="New York">New York</option>
+<option value="North Carolina">North Carolina</option>
+<option value="North Dakota">North Dakota</option>
+<option value="Ohio">Ohio</option>
+<option value="Oklahoma">Oklahoma</option>
+<option value="Oregon">Oregon</option>
+<option value="Pennsylvania">Pennsylvania</option>
+<option value="Rhode Island">Rhode Island</option>
+<option value="South Carolina">South Carolina</option>
+<option value="South Dakota">South Dakota</option>
+<option value="Tennessee">Tennessee</option>
+<option value="Texas">Texas</option>
+<option value="Utah">Utah</option>
+<option value="Vermont">Vermont</option>
+<option value="Virginia">Virginia</option>
+<option value="Washington">Washington</option>
+<option value="West Virginia">West Virginia</option>
+<option value="Wisconsin">Wisconsin</option>
+<option value="Wyoming">Wyoming</option>
+</select>
 
-Zip
+<label for="zip">Zip Code</label>
+<input type="text" name="zip" />
 
-# Book selection (radio?)
+<label for="book">Book Selection</label>
+<label for="The Next Step">The Next Step</label>
+<input type="radio" name="book" value="The Next Step" />
 
-* Comic Book
-* Philosophy Book
-* Bible
+<label for="Good and Evil comic book">Good and Evil comic book</label>
+<input type="radio" name="book" value="Good and Evil comic book" />
 
-<label for="message">Message (questions or special requests)</label>
+<label for="By Divine Design">By Divine Design</label>
+<input type="radio" name="book" value="By Divine Design" />
 
+<label for="Bible">Bible</label>
+<input type="radio" name="book" value="Bible">Bible</input>
+
+<label for="message">Comments</label>
 <textarea name="message" rows="7" cols="50">
 </textarea>
+
+We only ship to address within the continental US
 
 <input type="submit" value="submit" />
 </form>
