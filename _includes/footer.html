@@ -4,9 +4,13 @@
 
     <div class="footer-col-wrapper">
         <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li>{{ site.email }}</li>
+          {% if site.email %}
+            <li>{{ site.email }}</li>
+          {% else %}
+            <li>{{ site.title }}</li>
+          {% endif %}
           <li><a href="/contact/">Contact Us</a></li>
+          <li>{{ site.location }}</li>
         </ul>
     </div>
 
