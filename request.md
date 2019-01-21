@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: narrow_page
 title: Request
 permalink: /request/
 ---

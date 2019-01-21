@@ -125,7 +125,7 @@
 /**
  * Page content
  */
-.page-content {
+.page-content, .page-content-narrow {
     padding: $spacing-unit 0;
 }
 
@@ -212,13 +212,16 @@ $neat-grid-desktop: (
   media: "(min-width: 768px)",
 );
 
-body > header, footer, .page-content {
+.page-content {
   @include grid-container;
   max-width: $max-width;
   margin: 0 auto;
-  background: white;
-  border: 1px solid;
-  border-width: 0px 1px;
+}
+
+.page-content-narrow {
+  @include grid-container;
+  max-width: $max-width-narrow-page;
+  margin: 0 auto;
 }
 
 header {
