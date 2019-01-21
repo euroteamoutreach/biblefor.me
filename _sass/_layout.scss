@@ -270,14 +270,6 @@ body {
     background-size: cover;
 }
 
-button, input[type=submit] {
-  background: $secondary-color;
-}
-
-label, input {
-  display: block;
-}
-
 .scripture {
   font-family: $scripture-font-family;
   font-size: 20px;

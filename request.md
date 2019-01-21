@@ -6,28 +6,27 @@ permalink: /request/
 
 # Request Form
 
-To receive a free book of your choice, please complete the form below. If you do not want to request a book or participate in the Bible correspondence course and just want to talk to someone [please use this contact form](/contact) and someone will get in touch with you.
+To receive a free book of your choice, please complete the form below.
+
+If you do not want to request a book or participate in the Bible correspondence course and just want to talk to someone [please use this contact form](/contact) and someone will get in touch with you.
 
 <form action="//biblefor.me/forms/process.php" method="post">
 <input type="hidden" name="form_tools_form_id" value="1" />
 <label for="name">Name</label>
-<input type="text" name="name" />
+<input type="text" name="name" required/>
 <label for="email">Email</label>
-<input type="text" name="email"/>
-<label for="phone">Phone (optional)</label>
-<input type="text" name="phone"/>
-
+<input type="text" name="email" required/>
 <label for="address1">Address 1</label>
-<input type="text" name="address1" />
+<input type="text" name="address1" required/>
 
 <label for="address2">Address 2</label>
-<input type="text" name="address2" />
+<input type="text" name="address2"/>
 
 <label for="city">City</label>
-<input type="text" name="city" />
+<input type="text" name="city" required/>
 
 <label for="state">State</label>
-<select name="state" />
+<select name="state" required>
 <option value="Alabama">Alabama</option>
 <option value="Arizona">Arizona</option>
 <option value="Arkansas">Arkansas</option>
@@ -77,28 +76,43 @@ To receive a free book of your choice, please complete the form below. If you do
 <option value="Wisconsin">Wisconsin</option>
 <option value="Wyoming">Wyoming</option>
 </select>
-
+<div class="">
 <label for="zip">Zip Code</label>
-<input type="text" name="zip" />
+<input type="text" name="zip" required/>
+</div>
+
+<label for="phone">Phone (optional)</label>
+<input type="text" name="phone"/>
 
 <label for="book">Book Selection</label>
-<label for="The Next Step">The Next Step</label>
+
+<div class="radio-option">
 <input type="radio" name="book" value="The Next Step" />
+<label for="The Next Step">The Next Step</label>
+</div>
 
-<label for="Good and Evil comic book">Good and Evil comic book</label>
+<div class="radio-option">
 <input type="radio" name="book" value="Good and Evil comic book" />
+<label for="Good and Evil comic book">Good and Evil comic book</label>
+</div>
 
-<label for="By Divine Design">By Divine Design</label>
+<div class="radio-option">
 <input type="radio" name="book" value="By Divine Design" />
+<label for="By Divine Design">By Divine Design</label>
+</div>
 
-<label for="Bible">Bible
-<input type="radio" name="book" value="Bible" /></label>
+<div class="radio-option">
+<input type="radio" name="book" value="Bible" />
+<label for="Bible">Bible</label>
+</div>
 
 <label for="message">Comments</label>
 <textarea name="message" rows="7" cols="50">
 </textarea>
 
-We only ship to address within the continental US
+<p class="form-note">We only ship to addresses within the continental US</p>
 
-<input type="submit" value="submit" />
+<div class="form-actions">
+  <input type="submit" value="Submit" />
+</div>
 </form>

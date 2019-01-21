@@ -16,6 +16,7 @@ $base-line-height: 1.5;
 $heading-scale: 6;
 
 $spacing-unit:     30px;
+$border-radius:    4px;
 
 // Customize these colors
 $text-color:       #111;
@@ -32,7 +33,7 @@ $min-footer-height: 62px;
 
 // Width of the content area
 $max-width:        1200px;
-$max-width-narrow-page:        800px;
+$max-width-narrow-page:        600px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
@@ -53,5 +54,6 @@ $on-laptop:        800px;
 }
 
 @import "neat/neat";
-@import "layout";
 @import "base";
+@import "layout";
+@import "forms";

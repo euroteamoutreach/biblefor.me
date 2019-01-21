@@ -13,24 +13,33 @@ If you would like to receive a free book or participate in the Bible corresponde
 <form action="//biblefor.me/forms/process.php" method="post">
 <input type="hidden" name="form_tools_form_id" value="1" />
 <label for="name">Name</label>
-<input type="text" name="name" />
+<input type="text" name="name" required/>
 <label for="email">Email</label>
-<input type="text" name="email" />
-<label for="message">Message</label>
+<input type="text" name="email" required/>
+<label for="phone">Phone</label>
+<input type="text" name="phone"/>
 
 <label for="preferred_contact">Preferred contact method</label>
 
-<label for="Email">Email</label>
+<div class="radio-option">
 <input type="radio" name="preferred_contact" value="Email" />
+<label for="Email">Email</label>
+</div>
 
-<label for="Phone">Phone</label>
+<div class="radio-option">
 <input type="radio" name="preferred_contact" value="Phone" />
+<label for="Phone">Phone</label>
+</div>
 
-<label for="Text">Text</label>
+<div class="radio-option">
 <input type="radio" name="preferred_contact" value="Text" />
+<label for="Text">Text</label>
+</div>
 
-<textarea name="message" rows="7" cols="50">
+<label for="message">Message</label>
+<textarea name="message" rows="7" cols="50" required>
 </textarea>
-
-<input type="submit" value="submit" />
+<div class="form-actions">
+  <input type="submit" value="Submit" />
+</div>
 </form>
