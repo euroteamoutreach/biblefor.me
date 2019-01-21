@@ -91,8 +91,8 @@ To receive a free book of your choice, please complete the form below. If you do
 <label for="By Divine Design">By Divine Design</label>
 <input type="radio" name="book" value="By Divine Design" />
 
-<label for="Bible">Bible</label>
-<input type="radio" name="book" value="Bible">Bible</input>
+<label for="Bible">Bible
+<input type="radio" name="book" value="Bible" /></label>
 
 <label for="message">Comments</label>
 <textarea name="message" rows="7" cols="50">

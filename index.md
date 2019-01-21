@@ -21,7 +21,7 @@ layout: home
         {% endif %}
     </div>
     </a>
-    <a class="button">Request</a>
+    <a class="button" href="{{ page.url }}">Request</a>
     </div>
 </div>
 {% endif %}
