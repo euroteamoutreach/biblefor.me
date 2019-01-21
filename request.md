@@ -1,14 +1,12 @@
 ---
 layout: page
-title:
+title: Request
 permalink: /request/
 ---
 
-# Request
+# Request Form
 
-If you have questions please contact us.
-
-If you would like to receive a free book or participate in the Bible correspondence course please fill out the [sign up form]().
+To receive a free book of your choice, please complete the form below. If you do not want to request a book or participate in the Bible correspondence course and just want to talk to someone [please use this contact form](/contact) and someone will get in touch with you.
 
 <form action="//biblefor.me/forms/process.php" method="post">
 <input type="hidden" name="form_tools_form_id" value="1" />
