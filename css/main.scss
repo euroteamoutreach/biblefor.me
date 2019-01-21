@@ -4,31 +4,31 @@
 @charset "utf-8";
 
 
-
 // Our variables
 //$base-font-family: Helvetica, Arial, sans-serif;
 $base-font-family: Verdana, Geneva, sans-serif;
-$heading-font-family: Verdana, Geneva, sans-serif;
+$heading-font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
 $scripture-font-family: "Times New Roman", Times, serif;
 $scripture-heading-font-family: "Bookman", "URW Bookman L", serif;
 $base-font-size:   15px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
+$heading-scale: 6;
 
 $spacing-unit:     30px;
 
+// Customize these colors
 $text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$background-color: #F2F2F2;
+$primary-color:    #5ab51e;
+$secondary-color:  #0c4659;
 
-$highlight-color:  #f5deb3;
-
-$grey-color:       #828282;
+$grey-color:       lighten($text-color, 40%);
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
-$content-width:    800px;
+$max-width:        1200px;
 
 $on-palm:          600px;
 $on-laptop:        800px;

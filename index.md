@@ -5,7 +5,7 @@
 layout: home
 ---
 
-Thank you for reading the tract you received! We'd like to offer you one of the books below for free. Just choose the book you want and complete the [request form](/request).
+##### Thank you for reading the tract you received! We'd like to offer you one of the books below for free. Just choose the book you want and complete the [request form](/request).
 
 {% for page in site.pages %}
 {% if page.categories contains 'give-away-books' %}
