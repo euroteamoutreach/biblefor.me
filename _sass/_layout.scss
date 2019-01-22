@@ -234,7 +234,7 @@ html, body {
 
 $neat-grid: (
   columns: 6,
-  gutter: 20px,
+  gutter: 12px,
 );
 
 $neat-grid-desktop: (
@@ -342,4 +342,37 @@ footer {
       text-decoration: none;
     }
   }
+
+  a.button {
+    float: right;
+  }
+}
+
+.book-option, .book-header {
+  border-radius: $border-radius;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 1px 1px 3px #cdcdcd;
+
+  img {
+    margin: 0 auto;
+    display: block;
+    max-height: 240px;
+  }
+}
+
+.book-option.dark, .book-header.dark {
+  * {
+    color: $background-color;
+  }
+}
+
+.book-option-inner {
+  padding:20px;
+  overflow: auto;
+}
+
+.book-header {
+  height: 220px;
+  margin-bottom: 20px;
 }
