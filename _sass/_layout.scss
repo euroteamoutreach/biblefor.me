@@ -25,7 +25,12 @@ html, body {
   min-height: 56px;
   // Positioning context for the mobile navigation icon
   position: relative;
-  border-top: 5px solid $grey-color-dark;
+  border-top: 2px darken($primary-color, 30%) solid;
+
+  .wrapper {
+    padding: 5px 20px;
+  }
+
   text-shadow: 1px 1px 2px darken($primary-color, 20%);
 
   .site-title, .site-title a {
@@ -311,7 +316,30 @@ footer {
     @include grid-media($neat-grid-desktop) {
       @include grid-column(4);
     }
+
     float: left;
     text-align: center;
+    padding: 10px 0;
+  }
+}
+
+.book-option {
+  display: block;
+  float: left;
+  border-radius: 4px;
+  margin-bottom: 10px;
+
+  @include grid-column(6, $neat-grid);
+
+  @include grid-media($neat-grid-desktop) {
+    @include grid-column(6);
+  }
+
+  a {
+    color: $text-color;
+
+    &:hover {
+      text-decoration: none;
+    }
   }
 }

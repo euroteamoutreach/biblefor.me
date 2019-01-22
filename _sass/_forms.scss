@@ -37,7 +37,7 @@ input[type=text] {
   padding: 3px 2px;
   font-size: 16px;
   box-sizing: border-box;
-  min-width: 50%;
+  min-width: 80%
 }
 
 .radio-option {
@@ -69,6 +69,28 @@ textarea {
   width: 100%;
 }
 
+$neat-form-grid: (
+  columns: 1,
+  gutter: 0px,
+);
+
+$neat-form-grid-desktop: (
+  columns: 4,
+  gutter: 0px,
+  media: "(min-width: 768px)",
+);
+
+.two-column-fields {
+  float: left;
+  display: block;
+
+  @include grid-column(1, $neat-form-grid);
+
+  @include grid-media($neat-form-grid-desktop) {
+    @include grid-column(2);
+  }
+}
+
 .form-actions {
   padding: 10px 0;
 }
@@ -80,13 +102,10 @@ label {
   padding: 10px 0px 2px;
 }
 
-.book-option {
-  display: block;
-  float: left;
-
-  @include grid-column(6, $neat-grid);
-
-  @include grid-media($neat-grid-desktop) {
-    @include grid-column(6);
-  }
+.form-note {
+  font-weight: bold;
+  padding: 16px 0px;
+  color: $grey-color-dark;
+  border-top: 2px dashed $grey-color;
+  border-bottom: 2px dashed $grey-color;
 }

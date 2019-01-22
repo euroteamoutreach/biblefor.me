@@ -226,3 +226,7 @@ pre {
         }
     }
 }
+
+.clearfix {
+  @extend %clearfix;
+}

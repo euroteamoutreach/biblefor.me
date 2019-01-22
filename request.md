@@ -22,9 +22,12 @@ If you do not want to request a book or participate in the Bible correspondence 
 <label for="address2">Address 2</label>
 <input type="text" name="address2"/>
 
+<div class="two-column-fields">
 <label for="city">City</label>
 <input type="text" name="city" required/>
+</div>
 
+<div class="two-column-fields">
 <label for="state">State</label>
 <select name="state" required>
 <option value="Alabama">Alabama</option>
@@ -76,13 +79,19 @@ If you do not want to request a book or participate in the Bible correspondence 
 <option value="Wisconsin">Wisconsin</option>
 <option value="Wyoming">Wyoming</option>
 </select>
-<div class="">
+</div>
+<div class="clearfix"></div>
+
+<div class="two-column-fields">
 <label for="zip">Zip Code</label>
 <input type="text" name="zip" required/>
 </div>
 
+<div class="two-column-fields">
 <label for="phone">Phone (optional)</label>
 <input type="text" name="phone"/>
+</div>
+<div class="clearfix"></div>
 
 <label for="book">Book Selection</label>
 
@@ -110,9 +119,9 @@ If you do not want to request a book or participate in the Bible correspondence 
 <textarea name="message" rows="7" cols="50">
 </textarea>
 
-<p class="form-note">We only ship to addresses within the continental US</p>
-
 <div class="form-actions">
+  <p class="form-note">We only ship to addresses within the continental US</p>
+
   <input type="submit" value="Submit" />
 </div>
 </form>

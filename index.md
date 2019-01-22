@@ -27,5 +27,5 @@ layout: home
 {% endif %}
 {% endfor %}
 
-[Choose a free comic book, philosophy book, or bible, or bible course](/request-form)
+Got questions? [Fill use the contact form to get in touch with us](/contact)
 
