@@ -11,7 +11,7 @@ To receive a free book of your choice, please complete the form below.
 If you do not want to request a book or participate in the Bible correspondence course and just want to talk to someone [please use this contact form](/contact) and someone will get in touch with you.
 
 <form action="//biblefor.me/forms/process.php" method="post">
-<input type="hidden" name="form_tools_form_id" value="1" />
+<input type="hidden" name="form_tools_form_id" value="2" />
 <label for="name">Name</label>
 <input type="text" name="name" required/>
 <label for="email">Email</label>
