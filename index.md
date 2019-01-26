@@ -10,8 +10,8 @@ layout: home
 {% for page in site.pages %}
 {% if page.categories contains 'give-away-books' %}
 <div class="book-option {{ page.scheme }}" style="background-image: url('{{ page.background }}'); background-color: {{ page.color }}">
+    <div class="book-option-inner">
     <img class="" src="/{{ page.thumbnail }}"/>
-    <div class="text">
     <a class="thumbnail" href="{{ page.url }}">
     <h3 class="heading">{{ page.title }}</h3>
     <p>{{ page.short_description | truncate: 230 }}</p>

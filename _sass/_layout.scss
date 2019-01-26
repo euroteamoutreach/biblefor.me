@@ -342,10 +342,6 @@ footer {
       text-decoration: none;
     }
   }
-
-  a.button {
-    float: right;
-  }
 }
 
 .book-option, .book-header {
@@ -354,16 +350,25 @@ footer {
   background-position: center;
   box-shadow: 1px 1px 3px #cdcdcd;
 
+  text-align: center;
+
+  h3 {
+    color: $text-color;
+  }
+
   img {
     margin: 0 auto;
     display: block;
     max-height: 240px;
   }
+
+  text-shadow: 1px 1px 1px $background-color;
 }
 
 .book-option.dark, .book-header.dark {
   * {
     color: $background-color;
+    text-shadow: 1px 1px 1px $text-color;
   }
 }
 
