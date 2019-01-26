@@ -4,8 +4,10 @@ layout: narrow_page
 <div class="post">
 
   <div class="book-header {{ page.scheme }}" style="background-image: url('{{ page.background }}'); background-color: {{ page.color }}">
-    <img src=""/>
+    <img class="book-detail-thumbnail" src="/{{ page.thumbnail }}"/>
   </div>
+
+  <h1 class="book-title">{{ page.title }}</h1>
 
   <article class="post-content">
     {{ content }}

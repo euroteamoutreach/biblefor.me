@@ -11,8 +11,8 @@ layout: home
 {% if page.categories contains 'give-away-books' %}
 <div class="book-option {{ page.scheme }}" style="background-image: url('{{ page.background }}'); background-color: {{ page.color }}">
     <div class="book-option-inner">
+    <a href="{{ page.url }}">
     <img class="" src="/{{ page.thumbnail }}"/>
-    <a class="thumbnail" href="{{ page.url }}">
     <h3 class="heading">{{ page.title }}</h3>
     <p>{{ page.short_description | truncate: 230 }}</p>
     <div class="">
@@ -27,5 +27,5 @@ layout: home
 {% endif %}
 {% endfor %}
 
-Got questions? [Fill use the contact form to get in touch with us](/contact)
+##### Got questions? [Use the contact form to get in touch with us](/contact)
 

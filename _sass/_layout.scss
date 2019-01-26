@@ -327,7 +327,7 @@ footer {
   display: block;
   float: left;
   border-radius: 4px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 
   @include grid-column(6, $neat-grid);
 
@@ -381,5 +381,9 @@ footer {
 
 .book-header {
   height: 220px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+
+  .book-detail-thumbnail {
+    padding-top: 20px;
+  }
 }
