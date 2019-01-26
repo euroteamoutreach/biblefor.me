@@ -7,7 +7,8 @@ layout: home
 
 ##### Thank you for reading the tract you received! We'd like to offer you one of the books below for free. Just choose the book you want and complete the [request form](/request).
 
-{% for page in site.pages %}
+{% assign sorted_pages = site.pages | sort:"position" %}
+{% for page in sorted_pages %}
 {% if page.categories contains 'give-away-books' %}
 <div class="book-option {{ page.scheme }}" style="background-image: url('{{ page.background }}'); background-color: {{ page.color }}">
     <div class="book-option-inner">
@@ -26,6 +27,8 @@ layout: home
 </div>
 {% endif %}
 {% endfor %}
+
+<div class="clearfix"></div>
 
 ##### Got questions? [Use the contact form to get in touch with us](/contact)
 
