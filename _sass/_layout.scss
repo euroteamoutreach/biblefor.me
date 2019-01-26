@@ -362,11 +362,13 @@ footer {
     max-height: 240px;
   }
 
-  text-shadow: 1px 1px 1px $background-color;
+  p, h3 {
+    text-shadow: 1px 1px 1px $background-color;
+  }
 }
 
 .book-option.dark, .book-header.dark {
-  * {
+  p, h3 {
     color: $background-color;
     text-shadow: 1px 1px 1px $text-color;
   }
