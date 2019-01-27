@@ -120,7 +120,7 @@ If you do not want to request a book or participate in the Bible correspondence 
 </textarea>
 
 <div class="form-actions">
-  <p class="form-note">We only ship to addresses within the continental US</p>
+  <p class="form-note">We only ship to addresses within the continental US.</p>
 
   <input type="submit" value="Submit" />
 </div>
