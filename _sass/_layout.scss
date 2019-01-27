@@ -73,7 +73,8 @@ html, body {
         top: 9px;
         right: 30px;
         background-color: $background-color;
-        border: 1px solid $grey-color-light;
+        background-color: darken($primary-color, 7%);
+        border: 1px solid darken($primary-color, 30%);
         border-radius: $border-radius;
         text-align: right;
 
@@ -275,11 +276,6 @@ footer {
   }
 }
 
-body {
-    background-image: url('/img/bible-background-sephia.jpg');
-    background-size: cover;
-}
-
 .scripture {
   font-family: $scripture-font-family;
   font-size: 20px;
@@ -363,14 +359,14 @@ footer {
   }
 
   p, h3 {
-    text-shadow: 1px 1px 1px $background-color;
+    text-shadow: 1px 1px 4px $background-color;
   }
 }
 
 .book-option.dark, .book-header.dark {
   p, h3 {
     color: $background-color;
-    text-shadow: 1px 1px 1px $text-color;
+    text-shadow: 1px 1px 4px $text-color;
   }
 }
 
