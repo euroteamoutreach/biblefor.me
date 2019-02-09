@@ -8,7 +8,7 @@ permalink: /contact/
 
 If you have questions and want to talk to someone please complete the form below and someone will get in touch with you.
 
-If you would like to receive a free book or participate in the Bible correspondence course please fill out the [request form](/request).
+If you would like to receive a free book or participate in the Bible correspondence course please fill out the [request form](/request/).
 
 <form action="//biblefor.me/forms/process.php" method="post">
 <input type="hidden" name="form_tools_form_id" value="1" />
