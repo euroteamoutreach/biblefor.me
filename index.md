@@ -30,5 +30,5 @@ layout: home
 
 <div class="clearfix"></div>
 
-##### Got questions? [Use the contact form to get in touch with us](/contact)
+##### Got questions? [Use the contact form to get in touch with us](/contact/)
 
