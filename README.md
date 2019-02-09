@@ -75,3 +75,5 @@ Book thumbnails
 ## License
 
 [MIT License](LICENSE)
+
+Book covers graphics in this repository are copyright by the respective copyright holders are not released under the MIT license.
