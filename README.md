@@ -72,6 +72,11 @@ Book thumbnails
 
 * https://chatnow.org/
 
+## Graphics
+
+* https://publicdomainvectors.org/en/free-clipart/Silhouette-vector-drawing-of-old-man-standing/18335.html
+* https://publicdomainvectors.org/en/free-clipart/Christ-on-the-cross-vector-image/4215.html
+
 ## License
 
 [MIT License](LICENSE)
