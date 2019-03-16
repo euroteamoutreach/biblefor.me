@@ -7,7 +7,7 @@ permalink: /good-news/
 
 = The Good News
 
-News often informs us of what may happen in our future. You may hear of good or bad things happening in the world, and you may change your behavior if you know what's coming. If a weather report tells of a coming storm you will take action to prepare for it. The news you hear on the internet or TV might give you clues as to what's going to happen in your the near future. The Good News presented here also tells of things that are going to happen in the future. It tells us of things that affect us today, as well as many important things in our future. It tells what comes after we die. And unlike weather reports, news here is completely accurate and will not change.
+News often informs us of what may happen in our future. You may hear of good or bad things happening in the world, and you may change your behavior if you know what's coming. If a weather report tells of a coming storm you will take action to prepare for it. The news you hear on the internet or TV might give you clues as to what's going to happen in your near future. The Good News presented here also tells of things that are going to happen in the future. It tells us of things that affect us today, as well as many important things in our future. It tells what comes after we die. And unlike weather reports, news here is completely accurate and will not change.
 
 Please spend a few minutes reading about this invaluable Good News.
 
@@ -29,7 +29,7 @@ ____
 For *all have sinned*, and come short of the glory of God;
 ____
 
-The Bible says you have law of God written on you heart. This is how you know when you've done something wrong.
+The Bible says you have law of God written on your heart. This is how you know when you've done something wrong.
 
 [.scripture]
 [quote, Romans 2:15]
@@ -56,7 +56,7 @@ Justice and judgment are the habitation of thy throne: mercy and truth
 shall go before thy face.
 ____
 
-Because God is just and will punish the wicked for their sins. Only an unjust judge would let the wicked go unpunished. In his righteousness he is angry with the wicked because of the sins they commit.
+Because God is just he will punish the wicked for their sins. Only an unjust judge would let the wicked go unpunished. In his righteousness he is angry with the wicked because of the sins they commit.
 
 [.scripture]
 [quote, Psalm 7:11]
@@ -73,9 +73,9 @@ transgression, and *by no means clearing the guilty*, visiting the iniquity of
 the fathers upon the children unto the third and fourth generation.
 ____
 
-== The Wages of Sin is Death
+== Sin Brings Death
 
-The Bible says the wages of sin is death.footnote:[Romans 6:23]
+The Bible says, "For the wages of sin is death".footnote:[Romans 6:23]
 
 [.scripture]
 [quote, James 1:15]
@@ -98,7 +98,7 @@ ____
 
 The lake of fire is the punishment for anyone who has sinned. It doesn't matter
 if you haven't committed any of *_"really bad"_* sins. The Bible says anyone who has sinned
-in any way has broken part of God's law is guilty of all of it.
+in any way has broken part of God's law and is guilty of all of it.
 [.scripture]
 [quote, James 2:10]
 ____
@@ -106,7 +106,7 @@ For whosoever shall keep the whole law, and yet *offend in one point, he is
 guilty of all*.
 ____
 
-Regardless of what sins you have committed you will be punished with enternity in hell.
+Regardless of what sins you have committed you will be punished with eternity in hell.
 
 [.scripture]
 [quote, Romans 1:18]
@@ -134,7 +134,7 @@ Hell was prepared for the 'devil and his angels' footnote:[Matthew 25:41, Eccles
 The Bible says that Jesus "did no sin, neither was guile found in his mouth:" footnote:[1 Peter 2:22].
 And John calls him "Jesus Christ the righteous" footnote:[1 John 2:1].
 
-==== Jesus died the death you deserved
+==== Jesus died the death you deserve
 
 [.scripture]
 [quote, Romans 5:8]
@@ -145,7 +145,7 @@ ____
 
 === Jesus exchanged his righteousness for your sins
 
-image::/images/imputed-righteousness.svg[Static]
+image::/images/imputed-righteousness.svg[His Righteousness in exchange for my sins]
 
 [.scripture]
 [quote, 2 Corinthians 5:21]
