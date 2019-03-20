@@ -276,9 +276,19 @@ footer {
   }
 }
 
-.scripture {
+.scripture, .scripture blockquote {
   font-family: $scripture-font-family;
   font-size: 20px;
+  color: $text-color;
+  letter-spacing: inherit;
+}
+
+.quoteblock.scripture {
+  margin-bottom: 14px;
+}
+
+.scripture .attribution {
+  text-align: right;
 }
 
 .scripture-block {

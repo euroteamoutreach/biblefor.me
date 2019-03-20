@@ -4,7 +4,7 @@ title: "The Next Step"
 permalink: /the-next-step/
 categories:
   - give-away-books
-one_sentence: "In this fully illustrated, easy reading book, Jack Chick uses cartoons to teach basic Bible concepts new believers."
+one_sentence: "In this fully illustrated, easy reading book, Jack Chick uses cartoons to teach basic Bible concepts to new believers."
 description: "When you received the Lord Jesus Christ as your own personal Savior, you made the most important decision of your life. To help you be more effective in your Christian walk, The Next Step will be most helpful. Though it is not meant to take the place of your Bible, it will teach you the basic steps to a strong and healthy Christian life."
 url_to_book: https://www.chick.com/products/item?stk=0156
 thumbnail: images/the-next-step/book-cover.png
