@@ -79,6 +79,7 @@ Book thumbnails
 
 ## License
 
-[MIT License](LICENSE)
+* Code is released under the [MIT License](LICENSE)
+* Page content is released under the [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
 
 Book covers graphics in this repository are copyright by the respective copyright holders are not released under the MIT license.
