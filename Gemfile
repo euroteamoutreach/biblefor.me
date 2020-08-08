@@ -12,10 +12,13 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 3.8.5"
+gem "jekyll", "~> 3.9.0"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima", "~> 2.0"
+
+# Something that is optional in Jekyll 3.9.0
+gem "kramdown-parser-gfm"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
